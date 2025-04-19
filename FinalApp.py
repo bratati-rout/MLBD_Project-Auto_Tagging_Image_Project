@@ -75,7 +75,7 @@ def generate_blip_caption(image: Image.Image):
 # Main Logic
 if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="Uploaded Image", use_container_width=True)
+    st.image(image, caption="Uploaded Image", width=None)
 
     if st.button("Generate Caption"):
         with st.spinner("Generating caption... Please wait."):
