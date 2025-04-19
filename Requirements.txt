@@ -1,0 +1,6 @@
+streamlit==1.32.2
+torch>=2.0.0
+transformers>=4.36.2
+Pillow>=10.0.0
+protobuf<4.0.0  # To avoid compatibility issues with Streamlit
+torchvision
